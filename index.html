@@ -19,7 +19,7 @@
       var data = {};
       formData.forEach((value, key) => { data[key] = value });
 
-      fetch('YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL', {
+      fetch('https://script.google.com/macros/s/AKfycbyXQSWya5BGoKdG8jK97W07Z6eOBlYNPKtjF2rripAhS0WBLULEC63n_mb5QGinrboS/exec', {
         method: 'POST',
         body: JSON.stringify(data)
       })
